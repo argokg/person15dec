@@ -22,6 +22,16 @@ public class Lorry extends Car{
     public void setLoadCapacityLorry(double loadCapacityLorry) {
         this.loadCapacityLorry = loadCapacityLorry;
     }
+    @Override
+    public String toString() {
+        return "\nCar brand: " + carBrand +
+                "\nCar category:" + carCategory +
+                "\nCar weight: " + carWeight +
+                "\nDriver: " + driver +
+                "\nEngine power: " + engine+
+                "\nLoad capacity: " + loadCapacityLorry;
+    }
+
 
 
 }

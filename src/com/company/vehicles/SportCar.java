@@ -22,8 +22,14 @@ public class SportCar extends Car{
         this.maxSpeedSportCar = maxSpeedSportCar;
     }
 
-//    @Override
-//    public String toString() {
-//        return "\nMax speed: " + maxSpeedSportCar;
-//    }
+    @Override
+    public String toString() {
+        return "\nCar brand: " + carBrand +
+                "\nCar category:" + carCategory +
+                "\nCar weight: " + carWeight +
+                "\nDriver: " + driver +
+                "\nEngine power: " + engine+
+                "\nMax speed: " + maxSpeedSportCar;
+    }
+
 }

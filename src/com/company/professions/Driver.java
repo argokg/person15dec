@@ -17,8 +17,6 @@ public class Driver {
 
 
 
-
-
     public String getFio() {
         return fio;
     }

@@ -5,14 +5,11 @@ import com.company.professions.Driver;
 
 public class Car {
 
-    private String carBrand;
-    private String carCategory;
-    private double carWeight;
-    private Driver driver;
-    private Engine engine;
-
-//    Lorry lorry;
-//    SportCar sportCar;
+    public String carBrand;
+    public String carCategory;
+    public double carWeight;
+    public Driver driver;
+    public Engine engine;
 
 
     public Car() {
@@ -24,8 +21,6 @@ public class Car {
         this.driver = driver;
         this.engine = engine;
     }
-
-
 
 
 
@@ -82,6 +77,7 @@ public class Car {
     public void setEngine(Engine engine) {
         this.engine = engine;
     }
+
 
     @Override
     public String toString() {
